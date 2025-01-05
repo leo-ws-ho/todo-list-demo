@@ -1,7 +1,9 @@
+import TodoList from '../components/TodoList';
+
 export default function Home() {
   return (
     <div className='page'>
-      This is an empty page.
+      <TodoList />
     </div>
   );
 }
